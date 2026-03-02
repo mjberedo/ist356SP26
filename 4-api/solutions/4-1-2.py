@@ -14,9 +14,10 @@ import pandas as pd
 import streamlit as st
 
 
-#st.title("Funny Name Search")
+st.title("Funny Name Search")
 
-#url = "https://cent.ischool-iot.net/api/funnyname/search"
-
-
+url = "https://cent.ischool-iot.net/api/funnyname/search"
+search = st.text_input("Enter a name to search for funny names:")
+if st.button("Search"):
+  # Complete the code to call the API and display results in a dataframe
 

@@ -26,6 +26,20 @@ import json
 
 import streamlit as st
 
+st.title("Geocode and Weather API Example")
+location = st.text_input("Enter a location to get current weather:")
+if st.button("Get Weather"):
+  
+    url = "https://cent.ischool-iot.net/api/google/geocode"
+    querystring = {"location":location}
+    headers = {'X-API-KEY': '632985c9646a0bc8f547f1d9'}
+    response = requests.get(url, headers=headers, params=querystring)
+    response.raise_for_status()
+    geocode = response.json()
+    st.write(geocode)
+    #lon = geocode['results'][0]['geometry']['location']['lng']
+    #lat = geocode['results'][0]['geometry']['location']['lat']
+
 
 
 

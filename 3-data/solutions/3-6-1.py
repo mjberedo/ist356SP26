@@ -106,6 +106,9 @@ student_responses2 = student_responses.copy() # copy() ensures we don't overwrit
 # change student poll responses to percentages
 for col in student_responses2.columns:
     student_responses2[col] = student_responses2[col] / poll_counts.loc[col, 'poll_num']
+
+st.write("Student Responses Converted to Percentages")
+st.dataframe(student_responses2)
 # student_responses2[col]. This line accesses the column in the student_responses2 dataframe 
 # poll_counts.loc[col, 'poll_num'] means
 #Steps
@@ -123,7 +126,7 @@ for col in student_responses2.columns:
 for col in student_responses2.columns:
     student_responses2[col] = student_responses2[col].apply(grade_attendance)
 
-st.write
+st.write("Student Responses Converted to Grades")
 st.dataframe(student_responses2)
 
 # TODO:
@@ -139,7 +142,7 @@ st.dataframe(summary)
 # use row.value_counts() to count the number of AB and np in each row
 # Use lambda function to apply this to each row and create new columns for AB and np counts
 # Store these counts in new columns in the dataframe
-# if AB or np is not present, return 0. Use the get() function to do this.
+# if AB or np is not present, return 0. Use the get() function to do this. Prevent errors when the value is not present in the row.
 # Calculate the percentage of sessions that are AB or np
 # display this summary dataframe
 
@@ -153,6 +156,7 @@ st.dataframe(summary)
 # merge summary with roster to get student names
 # use the netid column from roster_df and the index from summary dataframe to merge
 summary_with_names = pd.merge(roster_df, summary, left_on='netid', right_index=True)
+st.write("Summary DataFrame with Student Names")
 st.dataframe(summary_with_names)
 
 # TODO:
