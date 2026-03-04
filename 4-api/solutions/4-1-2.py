@@ -21,3 +21,8 @@ search = st.text_input("Enter a name to search for funny names:")
 if st.button("Search"):
   # Complete the code to call the API and display results in a dataframe
 
+    response = requests.get(url, params={"q": search})
+    response.raise_for_status()
+    data = response.json()
+    df = pd.DataFrame(data)
+    st.dataframe(df)
