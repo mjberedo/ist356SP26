@@ -203,17 +203,17 @@ Syracuse University has a variety of other policies designed to guarantee that s
 | 7 | 2/23 | 2/25 | 3/1 |
 |   | Data Wrangling 3-5 | Data Wrangling 3-6 | Practice |
 | 8 | 3/2 | 3/4 | 3/8 |
-|   | Web APIs 4-1 | Web APIs 4-2 | Assignment 4 (A4) |
+|   | Web APIs 4-1 | Web APIs 4-1 | Assignment 4 (A4) |
 | 9 | 3/9 | 3/10 | 3/15 |
 |   |  No Class: Spring Break | No Class: Spring Break |  |
 | 10 | 3/16 | 3/18 | 3/22 |
-|   | Web APIs 4-3 | Exam1/Web APIs 4-4 | CHECKPOINT II/Project Proposal |
+|   | Exam 1 Prep | Exam1 | CHECKPOINT II/Project Proposal |
 | 11 | 3/23 | 3/25 | 3/29 |
-|    | Web Scraping 5-1 | Web Scraping 5-2 | Assignment 5 (A5) |
+|    | Web API 4-2 & 4-3  | Web API 4-3 & 4-4 | Assignment 5 (A5) |
 | 12 | 3/30 | 4/1 | 4/5 |
-|   | Web Scraping 5-3 | Web Scraping 5-4 | Assignment 6 (A6) |
+|   | Web Scraping 5-1 & 5-2 | Web Scraping 5-3  | Assignment 6 (A6) |
 | 13 | 4/6 | 4/8 | 4/12 |
-|   | Data Visualization 6-1 | Data Visualization 6-2  | Assignment 7 (A7) |
+|   | Web Scraping 5-4 | Data Visualization 6- 1 & 6-2  | Assignment 7 (A7) |
 | 14 | 4/13 | 4/15 | 4/19 |
 |   | Data Visualization 6-3 | Data Visualization 6-4 | Assignment 8 (A8) |
 | 15 | 4/20 | 4/22 | 4/26 |
